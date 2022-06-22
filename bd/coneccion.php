@@ -1,6 +1,7 @@
 <?php
 
-class ConeccionRealDivisas {
+class ConeccionRealDivisas
+{
     private $con;
 
     function __construct()
@@ -10,53 +11,57 @@ class ConeccionRealDivisas {
             'root',
             '1234',
             'realdivisas',
-            3306,
+            3306
         );
     }
 
-    function consulta($sql) {
+    function consulta($sql)
+    {
         $respuesta = mysqli_query($this->con, $sql);
         $tabla = [];
-        while($fila = mysqli_fetch_assoc($respuesta)) {
+        while ($fila = mysqli_fetch_assoc($respuesta)) {
             $tabla[] = $fila;
         }
         return $tabla;
     }
- 
-    function insert($sql) {
+
+    function insert($sql)
+    {
         $respuesta = mysqli_query($this->con, $sql);
-        if($respuesta === TRUE){
+        if ($respuesta === TRUE) {
             return mysqli_insert_id($this->con);
-        }
-        else{
+        } else {
             return FALSE;
         }
     }
 
-    function update ($sql){
+    function update($sql)
+    {
         $respuesta = mysqli_query($this->con, $sql);
-          
-        return $respuesta;  
+
+        return $respuesta;
     }
 
 
-    function delete($sql){
+    function delete($sql)
+    {
         $respuesta = mysqli_query($this->con, $sql);
         return $respuesta;
     }
 
-    
-    function cantidadDeUsuarios($sql){
+
+    function cantidadDeUsuarios($sql)
+    {
         $respuesta = mysqli_query($this->con, $sql);
-        $cantidadUsuarios=mysqli_num_rows($respuesta);
+        $cantidadUsuarios = mysqli_num_rows($respuesta);
         return $cantidadUsuarios;
-     }
+    }
 
 
 
 
-    function cerrar() {
+    function cerrar()
+    {
         mysqli_close($this->con);
     }
-    
 }
