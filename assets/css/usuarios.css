@@ -1,0 +1,87 @@
+body{
+    margin: 0;
+}
+*{
+    font-family:Helvetica;
+}
+.header{
+    padding: 8px;
+    margin: 0 65px;
+    margin-top: 30px;
+    background-color: #c4c4c4;
+    border-radius: 7px;
+}
+.header > a >.logo-header{
+    padding-left: 40px;
+    width: 50px;
+    vertical-align: middle;
+}
+.titulo{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 450px;
+}
+
+.cantidad-usuarios{
+    margin-top: 100px;
+    width: 400px;
+    margin-left: 180px;
+    font-weight: bolder;
+    word-spacing: 20px;
+}
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    padding-right: 100px;
+    /* padding-top: 150px; */
+  }
+  .button > .return-button{
+    background-color: #f01111;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+    font-family: helvetica;
+  }
+
+
+
+.listar{
+    /* background-color: gray; */
+    border-radius: 10px;
+    width: 90%;
+    height: auto;
+    display: block;
+    padding: 50px;
+    margin-top: 20px;   
+}
+.listar > p{
+    font-weight: bolder;
+    word-spacing: 20px;
+    font-size: 20px;
+}
+
+.listar table tr th{
+    border: 2px solid rgb(165, 37, 37);
+    padding: 10px 20px;
+}
+.listar table tr td{
+    border: 2px solid black;
+    /* border-top: 1px solid white;
+    border-bottom: 1px solid white; */
+    padding: 10px 20px;
+    text-align: center;
+}
+
+#empresa{
+    margin-bottom: 150px;
+}
+
+
+

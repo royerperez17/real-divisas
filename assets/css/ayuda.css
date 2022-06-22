@@ -1,0 +1,272 @@
+body{
+  margin: 0
+}
+*{
+  font-family: 'Helvetica';
+}
+/* .header{
+  padding: 8px;
+  margin: 0 65px;
+  margin-top: 30px;
+  background-color: #c4c4c4;
+  border-radius: 7px;
+}
+.header .logo-header{
+  padding-left: 40px;
+  width: 50px;
+  vertical-align: middle;
+}
+.titulo{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 540px;
+} */
+.ayuda{
+  padding: 200px;
+  background-image: url("/assets/img/ayuda.jpg");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position: center;
+  background-color: #000000;
+  text-align: center;
+}
+
+.ayuda > span{
+font-size: 60px;
+color: white;
+font-family: helvetica;
+font-weight: bold;
+
+}
+
+
+
+
+
+
+.encabezado{
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 100px 0;
+  margin: 0;
+  background-image: url("/assets/img/fondo-monedas.png");
+  background-repeat:no-repeat;
+  background-size: 100%;
+  background-position: bottom;
+}
+
+/* preguntas frecuentes contenido */
+
+.container {
+  padding: 60px 100px;
+  background-image: url("/assets/img/fondo-billetes.png");
+  background-repeat:no-repeat;
+  background-size: 105%;
+  background-position: center;
+}
+
+
+.container span{
+  /* margin-bottom: 30px; */
+  font-weight: bolder;
+  font-size: 18px;
+}
+
+.container-faq {
+  padding: 30px;
+}
+
+.container-faq .item-faq {
+  /* box-shadow: 0 0 5px -1px rgba(0, 0, 0, 0.471); */
+  border-radius: 5px;
+  margin: 0 20px 10px 20px;
+}
+.container-faq  #first-question{
+  margin-top: 20px;
+}
+.container-faq #last-question{
+  margin-bottom: 35px;
+}
+
+
+
+.container-faq .item-faq .question {
+  /* position: relative; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* background: rgba(212, 133, 133, 0.859); */
+  padding: 15px 20px 15px 20px;
+  transition: .4s;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container-faq > .item-faq > .question p{
+  margin: 0;
+  font-size: 17px;
+}
+
+.container-faq .item-faq .question .more {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 40px;
+  height: 40px;
+  font-size: 1.7rem;
+  cursor: pointer;
+}
+
+.container-faq .item-faq .answer {
+  position: relative;
+  padding: 0 20px 0px 20px;
+  overflow: hidden;
+  height: 0;
+  transition: .4s;
+}
+
+.container-faq .item-faq .answer p {
+  font-size: 1rem;
+  margin: 0;
+  padding-bottom: 15px;
+}
+
+.return-button{
+  background-color: #f01111;
+  text-decoration: none;
+  color: white;
+  border-radius: 5px;
+  padding: 8px 20px;
+  float: right;
+  margin-right: 100px;
+  margin-top: 20px;
+}
+.retur-button:hover{
+  cursor: pointer;
+}
+
+
+
+
+
+
+/* .clicar:checked ~ .respuestas{
+  margin: 0;
+  position: relative;
+  display: inline;
+} */
+/*
+@media (max-width:768px) {
+  .header-idc label{
+    display: block;
+    background: #424242;
+    position: relative;
+  }
+
+  .menu-idc{
+    width: 100%;
+    margin-left: -300%;
+    position: absolute;
+    transition: all 0.4s;
+  }
+
+  #btn-menu:checked ~ .menu-idc{
+    margin: 0;
+    position: relative;
+  }
+} */
+/*
+.header-idc {
+  width:100%;
+  background: #424242;
+  border-radius: 15px;
+  }
+
+  .ver2 {
+      font-weight: 100;
+      letter-spacing: normal;
+  }
+
+  #btn-menu {
+      display: none;
+  }
+
+  .header-idc label {
+      display: block;
+      width: 100%;
+      height: 40px;
+      padding-top: 5px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #fff;
+      background: #424242;
+      text-align: center;
+      color: yellow;
+      font-weight: 800;
+      letter-spacing: 10px;
+      font-size: 20px;
+      border-top-left-radius: 15px;
+      border-top-right-radius: 15px;
+  }
+
+  .header-idc label:hover {
+      cursor: pointer;
+      background: #000;
+  }
+
+  .menu-idc {
+      width: 100%;
+      margin-left: -300%;
+      transition: all 0.4s;
+      position: absolute;
+  }
+
+  .menu-idc ul {
+      margin: 0;
+      list-style: none;
+      padding: 0;
+      justify-content: right;
+      color: yellow;
+  }
+
+  .menu-idc li:hover {
+      background: #000;
+      color: yellow;
+      border-radius: 15px;
+  }
+
+  .menu-idc li a {
+      display: block;
+      padding: 8px;
+      color: yellow;
+      text-decoration: none;
+  }
+
+  #btn-menu:checked ~ .menu-idc {
+      margin: 0;
+      position: relative;
+  }
+
+  @media (max-width:768px) {
+      .header-idc label {
+          display: block;
+          background: #424242;
+          position: relative;
+      }
+
+      .menu-idc {
+          width: 100%;
+          margin-left: -300%;
+          position: absolute;
+          transition: all 0.4s;
+      }
+
+      #btn-menu:checked ~ .menu-idc {
+          margin: 0;
+          position: relative;
+      }
+  } */
+

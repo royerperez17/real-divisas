@@ -1,0 +1,71 @@
+.content-register{
+    padding-top: 100px;
+    width: 600px;
+    font-family: helvetica;
+    margin-right: 100px;
+}
+.content-register > h1{
+    font-size: 40px;
+    margin: auto;
+    width: 280px;
+}
+.content-register > .content {
+    text-align: center;
+    margin-top: 50px;
+}
+.content-register > .content input{
+    width: 350px;
+    border-radius: 3px;     
+    background-color:#bdbdbd;
+    border: 0px;
+    margin-top: 6px;
+    margin-bottom: 15px;  
+    padding: 11px;
+}
+.content p{
+    margin: 0;
+    text-align: left;
+}
+.content-register .forgot-passwod{
+    margin: auto;
+    text-align: center;
+    width: 180px;
+    text-decoration: none;
+    color: black;
+    font-size: 12px;
+}
+.content-register > .buttons{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 200px;
+}
+.content-register > .buttons > .login-button{
+    width: 16   0px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    margin-bottom: 10px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+}
+.content-register > .buttons > a{
+    padding-top: 10px;
+    width: 200px;
+    font-size: 12px;
+    color: black;
+    text-align: center;
+}
+.buttons > #return-button{
+    width: 50px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 10px;
+    margin-top: 100px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

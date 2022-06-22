@@ -1,0 +1,25 @@
+.content{
+    padding-top: 130px;
+    width: 650px;
+    font-family: helvetica;
+}
+.content > img{
+    width: 200px;
+    height: 200px;
+}
+.content > .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 162px;
+}
+.content > .buttons > a{
+    width: 140px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+}

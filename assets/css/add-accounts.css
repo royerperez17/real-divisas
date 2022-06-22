@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+}
+*{
+    font-family:Helvetica;
+}
+.header{
+    padding: 8px;
+    margin: 0 65px;
+    margin-top: 30px;
+    background-color: #c4c4c4;
+    border-radius: 7px;
+}
+.header > a >.logo-header{
+    padding-left: 40px;
+    width: 50px;
+    vertical-align: middle;
+}
+.titulo{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 550px;
+}
+.add-accounts{
+    display: flex;
+    align-items: flex-start;
+    flex-direction: column;
+    padding: 35px;
+    margin: 50px 200px 0 200px;
+    background-color: #e3e3e3;
+    border-radius: 7px;
+}
+.add-accounts > img{
+    width: 40px;
+}
+.add-accounts > a{
+    width: 150px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin: 30px 0;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    text-align: center;
+}
+.add-accounts > p{
+    margin: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+.cuentas-registradas{
+    /* background: blue; */
+    padding: 50px 200px 50px 200px;
+    background-image: url("/assets/img/fondo-billetes.png");
+  background-repeat:no-repeat;
+    background-size: 105%;
+    background-position: center;
+}
+.cuentas-registradas #cuenta-titulos{
+    font-weight: bolder;
+    margin: 0;
+    padding: 35px 0 15px 70px; 
+}
+.cuentas-registradas > .cuentas{
+    background: #e3e3e3;
+    padding: 50px 20px 30px 20px;
+    border-radius: 7px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.cuentas > .cuenta-agregada{
+    background: #fefefe;
+    padding: 20px;
+    width: 200px;
+    margin: 0 30px;
+    margin-bottom: 20px;
+    min-height: 80px;
+    border-radius:10px;
+    box-shadow:6px 6px 15px rgb(135, 132, 132);
+}
+.cuenta-agregada p{
+    margin:0 ;
+    padding-top: 20px;
+    margin-bottom: 0;
+}
+
+.return-button{
+    background-color: #f01111;
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    padding: 8px 20px;
+    float: right;
+    margin-right: 100px;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  }
+  .retur-button:hover{
+    cursor: pointer;
+  }
+.banco-img{
+    width:130px;
+}
+.content-dolares{
+    display:flex;
+    justify-content:space-between;
+}
+
+.alias-numeroCuenta{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-between;
+}
+.alias-cuenta{
+    max-width: 100px;
+    word-wrap: break-word;
+}
+
+.moneda-tipoCuenta{
+    display:flex;
+    justify-content: space-between;;
+}

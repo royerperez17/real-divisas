@@ -1,0 +1,56 @@
+.content-register{
+    padding-top: 100px;
+    width: 600px;
+    font-family: helvetica;
+}
+.content-register > h1{
+    font-size: 40px;
+}
+.content-register > .content {
+    text-align: center;
+}
+.content-register > .content input{
+    width: 350px;
+    border-radius: 3px;     
+    background-color:#bdbdbd;
+    border: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    padding: 11px;
+}
+.content-register > .content select{
+    width: 140px;
+	padding: 11px;
+	margin-top: 6px;
+    margin-bottom: 6px;     
+    border-radius: 3px;
+    border: 0px; 
+    background-color:#bdbdbd; 
+}
+.content-register > .content  #document-number{
+    width: 190px;
+}
+.content-register > .content .content-one{
+    display: flex;
+    justify-content: space-between;
+}
+.content-register > .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.content-register > .buttons > .create-button{
+    width: 140px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+}
+.content-register > .buttons > a{
+    padding-top: 10px;
+    font-size: 13px;
+    color: black;
+}

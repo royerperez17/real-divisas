@@ -1,0 +1,112 @@
+*{
+    font-family: 'helvetica';
+}
+.datos-transaccion{
+    background-color: #f0efef;
+    width: 500px;
+    margin: 50px 0;
+    padding:60px;
+}
+.datos-transaccion > h1{
+    font-size: 30px;
+    margin-top: 0;
+}   
+.datos-transaccion > .content-data{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+.datos-transaccion > .content-data > select{
+    width: 450px;
+	padding: 15px 11px;
+	margin: 15px 0;    
+    border-radius: 1px;
+    border: 0px; 
+    background-color:#bdbdbd; 
+    border-radius: 4px
+}
+
+
+
+
+
+
+/* select:focus {
+    border-color: #aaa;
+    box-shadow: 0 0 1px 2px rgba(65, 64, 64, 0.7);
+    box-shadow: 0 0 0 3px -moz-mac-focusring;
+    color: #222; 
+    outline: none;
+  }
+
+select:focus::after{
+    background: red;
+} */
+
+
+.agregar-cuenta{
+    width:428px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    padding: 0 11px;
+	margin: 15px 0;    
+    border-radius: 1px;
+    border: 0px;
+    font-size: 14px;
+    background-color:#bdbdbd;
+    text-align: left;
+    text-decoration: none;
+    font-weight: bold;
+    
+}
+
+.agregar-cuenta > a{
+    text-decoration: none;
+    color: black;
+    height: 30px;
+    /* padding-top: 15px; */
+    /* width: 300px; */
+}
+.agregar-cuenta  #letra-agregar{
+    width: 403px;
+    padding-top: 15px;
+}
+.agregar-cuenta  img{
+    /* position: absolute; */
+    width: 25px;
+    padding-top: 2px;
+    /* top: 58.5%; 
+    right: 37.5%; */
+}
+.datos-transaccion > .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 180px;
+}
+.datos-transaccion > .buttons > .continue-button{
+    width: 180px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: black;
+    font-size: 17px;
+    cursor: pointer;
+}
+.datos-transaccion > .buttons > a{
+    width: 158px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 20px;
+    background-color:#c4c4c4;
+    color: black;
+    cursor: pointer;
+    font-size: 17px;
+    text-decoration: none;
+}

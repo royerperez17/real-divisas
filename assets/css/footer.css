@@ -1,0 +1,64 @@
+.footer {
+    /* background-color: rgb(33, 31, 31); */
+    /* background-color: rgb(50, 50, 55); */
+    background-color: rgb(51, 51, 51);
+    /* background-color: rgba(69, 67, 66, 0.837); */
+    font-family: helvetica;
+    margin-top: 200px;
+    /* margin-bottom: 50px; */
+    /* padding-left: 50px;
+    padding-right: 50px; */
+    padding: 50px 50px;
+    color: rgb(213, 208, 208);;
+}
+.footer > .footer-one{
+    /*background-color: yellow;*/
+    display: flex;
+    justify-content: space-between;
+}
+.footer > .footer-one .title{
+    font-weight: bold;
+}
+.footer > .footer-one > .empresa{
+    text-align: left;
+}
+.footer > .footer-one > .empresa >a{
+    text-decoration: none;
+    color: rgb(213, 208, 208);
+}
+.footer > .footer-one .redes-sociales{
+    width: 45px;
+    filter:invert(1);
+}
+/*.footer > .footer-two{
+    background-color:red;
+}*/
+.footer > .footer-two img{
+    width: 90px;
+}
+.footer > .footer-two > hr{
+   margin-top: -45px;
+}
+.footer-three {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -15px;
+    height: 105px;
+}
+.footer-three > .informacion{
+    text-align: right;
+}
+.footer-three > .informacion > p{
+    margin-bottom: 0;
+}
+.footer-three > .nombre-empresa{
+    display: flex;
+    flex-direction: column-reverse;
+}
+.footer-three > .nombre-empresa > p{
+    margin-bottom: 0;
+    font-size: 13px;
+    text-align: left;
+    
+}
+

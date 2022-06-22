@@ -1,0 +1,36 @@
+/*.container{
+    display: flex;
+    justify-content: space-between;
+} */
+.content{
+    padding-top: 100px;
+    width: 650px;
+    font-family: helvetica;
+}
+.content > .title-content{
+    font-size: 25px;
+}
+.content > .content-register{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+.content > .content-register > .register{
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+}
+.election-register{
+    width: 190px;
+    padding-top: 30px;
+}
+.content > .content-register .title-register{
+    background-color:#c4c4c4;
+    border-radius: 3px;
+    height: 22px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-decoration:none;
+    font-size: 18px;
+    color: black;  
+}

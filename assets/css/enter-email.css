@@ -1,0 +1,30 @@
+.content-mail{
+    padding-top: 100px;
+    width: 600px;
+    font-family: helvetica;
+}
+.content-mail > h1{
+    width: 400px;
+}
+.content-mail > .content input{
+    width: 350px;
+    border-radius: 3px;     
+    background-color:#bdbdbd;
+    border: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    padding: 11px;
+}
+.buttons{
+    width: 140px;  
+}
+.content-mail > .buttons > .search-button{
+    width: 140px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+}

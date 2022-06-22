@@ -1,0 +1,80 @@
+body{
+    margin:0;
+}
+
+* {
+    font-family:Helvetica;
+}
+.header{
+    padding: 8px;
+    margin: 0 65px;
+    margin-top: 30px;
+    background-color: #c4c4c4;
+    border-radius: 7px;
+}
+.header > a >.logo-header{
+    padding-left: 40px;
+    width: 50px;
+    vertical-align: middle;
+  }
+  .titulo{
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    padding: 10px;
+    font-weight: bold;
+    vertical-align: middle;
+    padding-left: 360px;
+}
+
+
+
+
+.content-register{
+    margin: 100px 0;
+    padding: 40px 0;
+    width: 600px;
+    font-family: helvetica;
+    background-color: #e3e3e3;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    box-shadow: 6px 6px 10px 0 #696767;
+}
+.content-register > h1{
+    font-size: 40px;
+    margin-top: 0;
+}
+.content-register > .content {
+    text-align: center;
+}
+.content-register > .content input{
+    width: 350px;
+    border-radius: 3px;     
+    background-color:#bdbdbd;
+    border: 0px;
+    margin-top: 6px;
+    margin-bottom: 6px;  
+    padding: 17px 11px;
+}
+
+.content-register > .buttons{
+    display: flex;
+    flex-direction: column;
+    width: 140px;
+}
+.content-register > .buttons > .create-button{
+    width: 140px;
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: white;
+    cursor: pointer;
+}
+.content-register > .buttons > a{
+    padding-top: 10px;
+    font-size: 13px;
+    color: black;
+}

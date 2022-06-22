@@ -1,0 +1,167 @@
+*{
+  font-family:Helvetica;
+}
+.header{
+  padding: 8px;
+  margin: 0 65px;
+  margin-top: 30px;
+  background-color: #c4c4c4;
+  border-radius: 7px;
+}
+.header > a >.logo-header{
+  padding-left: 40px;
+  width: 50px;
+  vertical-align: middle;
+}
+.header >.titulo{
+  color: black;
+  font-size: 25px;
+  text-align: center;
+  padding: 10px;
+  font-weight: bold;
+  vertical-align: middle;
+  padding-left: 450px;
+}
+.content-body{
+  margin: 0 65px;
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+
+
+
+
+/* css de la transaccion en progreso */
+
+.content-body > .transaction-progress{
+  margin-bottom: 80px;
+}
+.content-body .transaccion{
+  margin: 0 0 20px 0;
+  padding-left: 120px;
+  font-weight: bolder;
+}
+.content-body .line{
+    width: 100%;
+    height: 4px;
+    background-color: #f01111;
+}
+.body-transaction-progress{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.body-transaction-progress > .content-info{
+  margin-left: 55px;
+}
+.body-transaction-progress > .content-info > .info{
+  display: flex;
+  align-items: center;
+  width: 450px;
+	padding: 4px 11px;
+	margin: 15px 0;    
+  border-radius: 3px; 
+  background-color:#bdbdbd; 
+}
+.content-info > .info > p{
+  padding-left: 25px;
+}
+.body-transaction-progress img{
+  width: 25px;
+}
+.body-transaction-progress > .info-transaction{
+  width: 240px;
+  padding: 10px 20px;
+  margin-right: 55px;
+  border-radius: 3px;
+  background-color: #f0e7e7;
+}
+.info-transaction > .codigo-operacion{
+  display: flex;
+  align-items: center;
+}
+.codigo-operacion > p{
+  padding-left: 20px;
+  margin: 0;
+}
+.info-transaction > .dinero-operacion{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 47px;
+}
+.dinero-operacion > img{
+  width: 17px;
+  margin: 0 20px;
+}
+.info-transaction > p{
+  margin: 10px 0 10px 47px;
+}
+
+
+
+/* css de las transacciones realizadas */
+
+.content-body > .transaction-made{
+  margin-bottom: 80px;
+}
+.transaction-made > .body-transaction-made{
+  margin-top: 30px;
+  /* background-color: blue; */
+}
+.body-transaction-made > .content-transaction-made{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin: 0 170px 20px 170px;
+  padding: 15px;
+  height: 80px;
+  border-radius: 4px;
+  background-color: #e0e0e0;
+}
+.content-transaction-made > .codigo-operacion{
+  display: flex;
+  align-items: flex-start;
+  flex-direction: row;
+  /* margin: 10px 0 0 20px; */
+}
+.content-transaction-made > .dinero-operacion{
+  display: flex;
+  align-items: flex-end;
+  padding-right: 30px;
+}
+.dinero-operacion > img{
+  width: 25px;
+  padding-bottom: 20px;
+}
+.dinero-operacion > p{
+  margin: 0;
+  padding-bottom: 10px
+}
+.content-transaction-made > .fecha-operacion > p{
+  margin:0;
+  padding-top: 5px;
+}
+.fecha-operacion > #fecha{
+  font-weight: bold;
+  padding-top: 10px;
+}
+.content-body > .return{
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 50px;
+}
+.content-body > .return > a{
+    border-radius: 3px;
+    border: 0px;
+    padding: 11px 30px;
+    margin-top: 30px;
+    background-color:#f01111;
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+
