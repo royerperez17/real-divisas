@@ -7,11 +7,11 @@ class ConeccionRealDivisas
     function __construct()
     {
         $this->con = mysqli_connect(
-            '127.0.0.1',
-            'root',
-            '1234',
-            'realdivisas',
-            3306
+            '127.0.0.1', //localhost
+            'root',     //usuario   
+            '1234',     //password
+            'realdivisas', //name bd
+            3306 // port
         );
     }
 
